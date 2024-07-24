@@ -11,7 +11,7 @@ body {
 }
 header {
     width: 100%;
-    height: 80px;
+    height: 70px;
     background: #000000;
     display: flex;
     align-items: center;
@@ -56,7 +56,7 @@ header {
         padding: 0 30px;
     }
 }
-@media only screen and (max-width: 1320px) {
+@media only screen and (max-width: 900px) {
     .hamburguer {
         display: block;
         cursor: pointer;
@@ -66,5 +66,8 @@ header {
         height: 3px;
         background: #fefefe;
         margin: 6px 0;
+    }
+    .nav-bar{
+        display: none;
     }
 }
