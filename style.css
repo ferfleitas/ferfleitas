@@ -64,9 +64,10 @@ footer{
 .nav-bar ul li a.active {
     color: #ff5500;
 }
-.title{
+.title{ /*text*/
     padding-bottom: 20px;
 }
+
 .container {
     max-width: 1320px;
     width: 90%;
@@ -98,7 +99,21 @@ footer{
     height: auto;
     
 }
+/*css for about page*/
+.about-content {
+    display: flex;
+    align-items: center;
+}
 
+.about-title{ /*text*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.about-content p {
+    text-align: center;
+}
 @media only screen and (max-width: 1320px) {
     header {
         padding: 0 50px;
