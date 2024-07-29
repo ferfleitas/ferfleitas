@@ -39,9 +39,18 @@ footer{
 .logo {
     font-size: 28px;
     font-weight: bold;
-    color:#fefefe;
-
+    color: #fefefe;
 }
+
+.logo a {
+    color: inherit; /* Ensures the anchor tag inherits the color from .logo */
+    text-decoration: none; /* Optional: Removes underline from the link */
+}
+
+.logo a:hover {
+    color: #ff5500;
+}
+
 .hamburger {
     display: none;
 }
