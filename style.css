@@ -248,7 +248,17 @@ footer{
         height: auto;
     }
     
-    .container h1 {
+    .about-container h1 {
         text-align: center;
+    }
+    .about-container .social-logos{
+        display: flex;
+        margin: 20px;
+        justify-content: center;
+    }
+    .about-container .social-logos i{
+        font-size: 30px;
+        padding: 0 20px;
+        color:#000000;
     }
 }    
